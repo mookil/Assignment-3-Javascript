@@ -24,6 +24,10 @@ body {
 
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
 
+.flex {
+    display: flex;
+}
+
 
  
 
@@ -42,8 +46,48 @@ body {
         - change the cursor to pointer.
 */
 
+h1 {
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
 
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    background-color: #E5AF42;
+    align-self: center;
+    line-height: 3;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.fake-button:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
 
 
 
@@ -58,7 +102,30 @@ body {
     - there will be 25px of space between the header and main, and 50px of space between main and footer.
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
+header {
+    background-color: #E5AF42;
+    height: 150px;
+    margin-bottom: 25px;
+}
 
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+footer {
+    height: 60px;
+    font-weight: 200;
+    margin: 0 auto;
+    width: 50%;
+}
 
 
 
@@ -73,9 +140,25 @@ body {
     - each fake-button on this page will be 250px wide with 150px of space between them.
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
+.index img {
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
 
+.index h2 {
+    line-height: 36px;
+}
 
+.index p {
+    margin-bottom: 12px;
+}
 
+.index .fake-button {
+    width: 250px;
+    margin-left: 150px;
+    text-align: center;
+}
 
 
 

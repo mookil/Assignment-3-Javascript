@@ -2,7 +2,8 @@
 // useful variables might be: the cost per day, the number of days selected, and elements on the screen that will be clicked or will need to be modified. 
 // Do any of these variables need to be initialized when the page is loaded? 
 // When do they need to be reset or updated?
-
+var costPerDay;
+var clickElement;
 
 
 
