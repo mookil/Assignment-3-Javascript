@@ -105,7 +105,9 @@ footer a:hover {
 header {
     background-color: #E5AF42;
     height: 150px;
+    margin: auto;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 header img {
@@ -116,15 +118,19 @@ header img {
     margin-left: 25px;
 }
 
-main {
-    margin-bottom: 50px;
-}
+/* main {
+    
+} */
 
 footer {
+    background-color: #E5AF42;
+    
     height: 60px;
     font-weight: 200;
-    margin: 0 auto;
-    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
 }
 
 
@@ -176,10 +182,41 @@ footer {
 
 */
 
+.booking-page {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.booking-page .day-selector {  
+    gap: 20px;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 12px;
+}
 
+.booking-page .day-selector li {
+    width: 60px;
+    border: 1px solid black;
+}
 
+.booking-page .small-button {
+    border: 1px solid black;
+    padding: 5px;
+}
 
+.booking-page .top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.booking-page #clear-button{
+    width: 200px;
+}
 
 
 
@@ -197,6 +234,48 @@ footer {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+.contact {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
 
+}
 
+.contact label {
+    width: 150px;
+    align-self: right;
+}
 
+.contact input {
+    width: 300px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact textarea {
+    height: 150px;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact form {
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact button {
+    line-height: 24px;
+    font-size: 16px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 24px;
+    margin-left: 150px;
+    width: 307px;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
