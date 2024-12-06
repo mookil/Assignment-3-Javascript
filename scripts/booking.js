@@ -95,11 +95,14 @@ function assignDayButton(day){
     // this function assigns the clickedDay function to the day buttons.
     // i made this so i wouldn't have to type out an eventlistener for each day
     day.addEventListener("click", function() {clickedDay(day);});
+    return;
 }
 
 /********* setting event listeners *********/
 // for each day in the days array, assign an on click event listener. assigns the clickedDay function to it, using the day as a parameter
-DAYS.every(assignDayButton);
+for (let i = 0; i < DAYS.length; i++) {
+    assignDayButton(DAYS[i]);
+}
 
 // other buttons, aside from weekdays
 CLEAR_DAYS_HTML.addEventListener("click", clearDays);
