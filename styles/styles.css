@@ -1,4 +1,4 @@
-/************* your name: 
+/************* your name: Mikael Ly
 
 INSTRUCTIONS:
 Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
@@ -46,6 +46,7 @@ body {
         - change the cursor to pointer.
 */
 
+/* Headers + Large Text */
 h1 {
     font-size: 48px;
     margin: 0 auto;
@@ -62,6 +63,7 @@ h2 {
     font-size: 24px;
 }
 
+/* Fake Buttons + Anchors */
 .fake-button {
     background-color: #E5AF42;
     align-self: center;
@@ -89,6 +91,13 @@ footer a:hover {
     cursor: pointer;
 }
 
+.blue-hover:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
 
 
 
@@ -102,6 +111,8 @@ footer a:hover {
     - there will be 25px of space between the header and main, and 50px of space between main and footer.
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
+
+/* Header + Footer Elements */
 header {
     background-color: #E5AF42;
     height: 150px;
@@ -117,10 +128,6 @@ header img {
     margin-bottom: 25px;
     margin-left: 25px;
 }
-
-/* main {
-    
-} */
 
 footer {
     background-color: #E5AF42;
@@ -146,6 +153,8 @@ footer {
     - each fake-button on this page will be 250px wide with 150px of space between them.
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
+
+/* Elements for the index page, styling for the image, header2, paragraphs, and fake button */
 .index img {
     width: 300px;
     margin-left: 25px;
@@ -182,6 +191,7 @@ footer {
 
 */
 
+/* booking page styling */
 .booking-page {
     width: 600px;
     display: flex;
@@ -192,6 +202,7 @@ footer {
     margin: 0 auto;
 }
 
+/* Day selector styling */
 .booking-page .day-selector {  
     gap: 20px;
     align-content: center;
@@ -209,14 +220,21 @@ footer {
     padding: 5px;
 }
 
+.booking-page #clear-button{
+    width: 200px;
+}
+
+.clicked {
+    background-color: #E5AF42;
+}
+
+/* Margining for the main elements */
 .booking-page .top-margin {
     margin-top: 24px;
     margin-bottom: 12px;
 }
 
-.booking-page #clear-button{
-    width: 200px;
-}
+
 
 
 
@@ -234,19 +252,19 @@ footer {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+/* contact page styling */
 .contact {
     height: 420px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: auto;
     width: 50%;
 
 }
 
+/* contact page elements styling */
 .contact label {
     width: 150px;
-    align-self: right;
 }
 
 .contact input {
